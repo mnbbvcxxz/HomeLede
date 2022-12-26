@@ -5,11 +5,11 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
-name: OpenWrt-CI
+name: Make OP
 
 on:
   schedule:
-    - cron: 0 20 * * *
+    - cron: 0 20 * * 7
   release:
     types: [published]
     
